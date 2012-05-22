@@ -25,7 +25,7 @@
             cors = options.CORS || this.CORS,
             verb = 'GET',
             data = {};
-        console.log(cors);
+            
         if(cors){
             verb = 'POST';
             data = args;
